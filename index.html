@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Warm & Lively Writing Page</title>
+  <style>
+    :root {
+      --bg1: #f3efe8;
+      --bg2: #e6ecf5;
+      --bg3: #f5e6e0;
+      --card: #fffaf3;
+      --text: #3f372f;
+      --muted: #6f6256;
+      --accent: #c97b63;
+      --border: #e2d3c2;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      color: var(--text);
+      background: linear-gradient(135deg, var(--bg1), var(--bg2), var(--bg3));
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px;
+      font-size: 2.8rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+      background: linear-gradient(135deg, #d6e4f0, #f5d6cc);
+      border-bottom: 2px solid var(--border);
+    }
+
+    .subtitle {
+      display: block;
+      margin-top: 10px;
+      font-size: 1.1rem;
+      color: var(--muted);
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto 60px;
+      padding: 0 20px;
+    }
+
+    .section {
+      margin-bottom: 25px;
+      padding: 26px;
+      border-radius: 16px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+      transition: transform 0.18s ease, box-shadow 0.18s ease;
+      position: relative;
+      text-align: justify
+    }
+
+    .section::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 8px;
+      background: var(--accent);
+      border-top-left-radius: 16px;
+      border-bottom-left-radius: 16px;
+    }
+
+    .section h2 {
+      margin: 0 0 12px 0;
+      font-size: 1.6rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    .section p {
+      margin: 0;
+      line-height: 1.8;
+      font-size: 1.05rem;
+    }
+
+    .section .meta {
+      margin-top: 12px;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    footer {
+      text-align: center;
+      padding: 22px 10px 30px;
+      font-size: 1rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  Best Friend Anita
+  <span class="subtitle">Great personalities are always remembered.</span>
+</header>
+
+<div class="container">
+
+  <div class="section">
+    <img src="image1.png" style="float: left; margin-right: 10px; margin-bottom: 2px; width: 300px;">
+    <p>Anita, you are a great friend I made, someone with awesome personality. I can't aford to lose you from my life.<br>
+      I really don't know what to say anymore... you are such an important part of my life. :'( You are a friend I miss so much. You were always so nice and I'm literally every day thinking about you. :'( I really just want you back as a friend. :'( <br>
+      I can't wait to talk to you again. I really like the person you are. I remember you were always so friendly...<br>
+      You have no idea how close I feel to you for the good time we spent playing with our friends... we used to hanged out like a gang there. <br>
+      Do you remember that game we had with Dawid in which I told you he was like part of the family because of my relation to you? <br>
+      Please, remember all the things we did as friends and who I was to you. <br>
+      I hope we can talk again soon. <br>
+      Warm regards.
+    </p>
+    <div class="meta">May 8th, 2026</div>
+  </div>
+
+</body>
+</html>
